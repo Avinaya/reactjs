@@ -1,0 +1,23 @@
+.slider{
+    margin-left: 61px;
+    background-color: whitesmoke; 
+    
+}
+.web_description,
+.mobile_description {
+    position: absolute;
+    top: 20px;
+    left: 700px;
+    right: 20px;
+  }
+  .web_description p,
+.mobile_description p{
+    color: #00544A;
+    font-size: 45px;
+    
+}
+.description{
+    color: #00544A;
+    line-height: 30px;
+
+}

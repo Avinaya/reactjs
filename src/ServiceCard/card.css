@@ -1,0 +1,121 @@
+
+section{
+    background-color: #495F7E;
+    padding-top: 10px;
+    padding-bottom:  30px;
+}
+h1{
+        font-size: 2.5rem;
+        color: #fff;
+        text-align: center;
+        font-weight: 400;
+        vertical-align: middle;
+
+}
+
+.services{
+    margin-left: 61px;
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service-1{
+    width: 320px;
+    background-color: #fff;
+    padding: 15px;
+    margin : 35px;
+    border-radius: 10px;
+
+}
+.img{
+    padding-top: 30px;
+}
+/* img{
+    height: 170px;
+    width: 100%; 
+} */
+.description{
+    padding-bottom: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+h2{
+    text-transform: uppercase;
+    color: #495F7E;
+}
+p{
+    margin-top: 20px;
+    color: #777;
+}
+.shapes{
+    position: relative;
+}
+.shapes-1,
+.shapes-2,
+.shapes-3,
+.shapes-4,
+.shapes-5,
+.shapes-6{
+    width: 20px;
+    height: 40px;
+    border-radius: 53px;
+    position: absolute;
+}
+.right{
+    right: 0;
+}
+.shapes-1{
+    right: 40px;
+    background-color: #495F7E;
+    top: -60px;
+    transition: all linear .5s;
+}
+
+.shapes-2{
+    right: 20px;
+    background-color: #fff;
+    top: -10px;
+    transition: all linear .5s;
+}
+.shapes-3{
+    background-color: #495F7E;
+    top: -60px;
+    transition: all linear .5s;
+}
+.service-1:hover .shapes-1{
+    top: -30px;
+}
+.service-1:hover .shapes-2{
+    top: -30px;
+}
+.service-1:hover .shapes-3 {
+    top: -40px;
+}
+.shapes-4{
+    background-color: #fff;
+    top: -27px;
+    transition: all linear .5s;
+}
+.shapes-5{
+    background-color: #495F7E;
+    left: 20px;
+    top: 17px;
+    transition: all linear .5s;
+}
+.shapes-6{
+    background-color: #fff;
+    left: 40px;
+    top: -27px;
+    transition: all linear .5s;
+}
+.service-1:hover .shapes-4{
+    top: -7px;
+}
+.service-1:hover .shapes-5{
+    top: 0;
+}
+.service-1:hover .shapes-6{
+    top: -15px;
+}

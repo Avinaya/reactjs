@@ -1,0 +1,3 @@
+<NavBar/> 
+<SimpleSlider/>
+<Services/>
