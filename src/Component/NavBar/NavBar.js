@@ -14,7 +14,7 @@ const NavBar = () => {
         <div className="header_logo">
           <a href="/">
             <img
-              src="https://elasticbeanstalk-us-east-1-937433307859.s3.amazonaws.com/logo.png"
+              src={require("../../Images/logo.png")}
               alt="saptasoch.com"
             />
           </a>

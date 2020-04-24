@@ -8,7 +8,6 @@
     position: absolute;
     top: 20px;
     left: 700px;
-    right: 20px;
   }
   .web_description p,
 .mobile_description p{
@@ -21,3 +20,23 @@
     line-height: 30px;
 
 }
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    .web_description,
+    .mobile_description {
+        position: relative;
+        top: 0px;
+        left: 0;
+      }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    .web_description,
+    .mobile_description {
+        position: relative;
+        top: 0px;
+        left: 0;
+      }
+   
+  }

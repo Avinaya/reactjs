@@ -1,3 +1,84 @@
-.about{
-    margin-left: 61px;
+.about-space {
+  margin-left: 61px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background-color: whitesmoke;
+}
+.about {
+  height: 700px;
+  width: 100%;
+}
+.title {
+  transform: rotate(-90deg);
+  float: left;
+  margin-top: 20%;
+  text-decoration: underline;
+  color: #00544A;
+}
+.image {
+  height: auto;  
+  margin-left: 50px;
+  margin-right: auto;
+  width: 65%;
+}
+.about-container-description{
+    background: rgba(205,0,55,.95);
+    padding: 78px 78px 0;
+    font-size: 18px;
+    line-height: 31px;
+    position: absolute;
+    bottom: -1200px;
+    right: 0;
+    margin-right: 70px;
+    max-width: 670px;
+    
+
+}
+.about-container-description P{
+    padding: 20px;
+    color: #fff;
+    line-height: 35px;
+}
+.about-container-description a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  .image {
+    width: 80%;
+  }
+  .about {
+    height: 80%;
+  }
+  .title {
+    transform: none;
+    margin-left: 25%;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  img {
+    width: 80%;
+  }
+  .about {
+    height: 80%;
+  }
+  .title {
+    transform: none;
+    margin-left: 25%;
+  }
+  .about-container-description{
+    position: static;
+    padding: 190px 10px 0;
+    font-size: 15px;
+    line-height: 1px;
+    bottom: -1110px;
+    margin-right: 0px;
+    max-width: 100%;
+  }
 }

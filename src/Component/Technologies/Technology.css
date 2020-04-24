@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.technologies-container {
+  max-width: 1140px;
+  margin: auto;
+  position: relative;
+  min-height: 1px;
+}
+.margin-tech{
+    margin-left: 61px;
+}
+
+.technologies {
+  min-height: 100vh;
+  padding: 60px 15px;
+  background-color: #EDF8F8;
+  float: left;
+  width: 100%;
+}
+.technologies h1 {
+  font-size: 36px;
+  font-family: open sans;
+  font-weight: 700;
+  color: #00544A;
+  margin: 0;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.technologies .technologies-card {
+  width: 20%;
+  float: left;
+  padding: 0px 15px;
+}
+.technologies .technologies-card .technologies-box {
+  padding: 15px;
+  background-color:white;
+  border-radius: 4px;
+  margin-bottom: 50px;
+  transition: margin 1s ease, box-shadow 1s ease;
+}
+
+.technologies .technologies-card .technologies-box img {
+  width: 200px;
+  height: 150px;
+  display: block;
+  margin: 10px auto;
+}
+
+.technologies .technologies-card .technologies-box:hover {
+    box-shadow: 0px 0px 40px black;
+
+  }
+ 
+
+
+
+/*responsive*/
+
+@media (max-width: 991px) {
+  .technologies .technologies-card {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 550px) {
+  .technologies .technologies-card {
+    width: 100%;
+  }
+}

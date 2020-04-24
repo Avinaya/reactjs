@@ -10,7 +10,7 @@ const SimpleSlider = () => (
           <p>
             World Class <strong>Digital Platform</strong> For Your Organization
           </p>
-          <span className="description">
+          <span className="description">  
             Our team will help to choose the best technology for
             your project. We will deliver productive, engaging and reliable web
             solutions that bring you the business outcomes that you deserve.
@@ -18,10 +18,11 @@ const SimpleSlider = () => (
         </div>
         <div className="web_image">
           <img
-            src="https://elasticbeanstalk-us-east-1-937433307859.s3.amazonaws.com/webapp.jpg"
+            src={require("../../Images/webImage.png")} 
             alt="Web App"
             height="400px"
             width="600px"
+            
 
             
           />
@@ -41,7 +42,7 @@ const SimpleSlider = () => (
         </div>
         <div className="mobile_image">
           <img
-            src="https://elasticbeanstalk-us-east-1-937433307859.s3.amazonaws.com/image.png"
+            src={require("../../Images/mobile.png")} 
             alt="Mobile App"
             height="400px"
             width="600px"
